@@ -1,0 +1,16 @@
+plugins {
+    id 'java-library'
+}
+
+group 'org.ell3d00d'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation project(':core')
+    compileOnly 'com.google.auto.service:auto-service:1.0.1'
+    annotationProcessor 'com.google.auto.service:auto-service:1.0.1'
+}

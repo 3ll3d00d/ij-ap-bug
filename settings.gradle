@@ -1,0 +1,3 @@
+rootProject.name = 'ij-ap-bug'
+include 'processor', 'user', 'core'
+
